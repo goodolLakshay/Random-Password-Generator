@@ -1,8 +1,7 @@
 import random
 
-var_length = int(input("Please enter the length of the password required: "))
+password_length = int(input("Please enter the length of the password required: "))
 print("_____________________________________________________")
-
 
 def rand_pass_gen(n):
     empty_string = ""
@@ -15,4 +14,4 @@ def rand_pass_gen(n):
     print("\n\n", "The generated password is:   ", empty_string)
 
 
-rand_pass_gen(var_length)
+rand_pass_gen(password_length)
